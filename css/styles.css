@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Poppins;
     background-image: radial-gradient(circle at 50% -20.71%, #ffff65 0, #feff65 10%, #e4fa67 20%, #c8f169 30%, #ace66b 40%, #90d86c 50%, #75ca6d 60%, #5cbd6f 70%, #44b271 80%, #29a873 90%, #00a177 100%);
+}
+
+.tudo {    
+    width: 60% ;
 }
 
 .oque-e {
     border-radius: 9px;
     text-align: center;
-    display: flex;
-    align-items: center;
 }
 
 .conteudo {
@@ -36,6 +41,8 @@ p {
 }
 
 .requisitos {
+    padding: 1rem;
+    background-color: rgb(218, 245, 122);
     width: auto;
     border-radius: 10px;
 }
@@ -48,11 +55,15 @@ p {
     padding: 1%;
 }
 
-.sequancia-p{
-    width: 10rem;
+.sequancia-p {
     text-align: center;
     background-color: white;
     border-radius: 10px;
 }
 
-
+h2 {
+    text-align: center;
+}
+.e-titulo{
+    text-align: justify;
+}
