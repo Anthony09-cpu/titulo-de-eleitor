@@ -2,11 +2,10 @@
 
 body {
     font-family: Poppins;
-    background-color:#999;
+    background-image: radial-gradient(circle at 50% -20.71%, #ffff65 0, #feff65 10%, #e4fa67 20%, #c8f169 30%, #ace66b 40%, #90d86c 50%, #75ca6d 60%, #5cbd6f 70%, #44b271 80%, #29a873 90%, #00a177 100%);
 }
 
 .oque-e {
-    background-color: white;
     border-radius: 9px;
     text-align: center;
     display: flex;
@@ -20,24 +19,40 @@ body {
 img {
     height: 100%;
     width: 300px;
-    
+
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    margin: 1px;
+    margin: 1%;
     font-size: 23px;
     margin-top: 10px;
 }
 
 p {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    border-radius: 9px;
-    color: rgb(255, 255, 255);
+    margin-right: 35%;
     font-size: 17px;
     margin: 3px auto;
 }
-.requisitos{
-    background-color: green;
+
+.requisitos {
+    width: auto;
     border-radius: 10px;
 }
+
+.imagem {
+    text-align: center;
+}
+
+.imagem p {
+    padding: 1%;
+}
+
+.sequancia-p{
+    width: 10rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
