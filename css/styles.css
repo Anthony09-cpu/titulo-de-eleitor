@@ -67,3 +67,9 @@ h2 {
 .e-titulo{
     text-align: justify;
 }
+
+.site{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
